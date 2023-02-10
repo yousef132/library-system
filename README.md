@@ -58,7 +58,7 @@ void add_book()
 
 ---------
 
-### - Searching for a book by it's prefix
+### Searching for a book by it's prefix
 
   - Code :
 
@@ -95,7 +95,7 @@ void search_book_by_prefix(){
 -------------------------
 
 
-###- Printing who borrowed book
+### Printing who borrowed book
 
   - Code :
 
@@ -125,7 +125,7 @@ void print_who_borrowed_book_by_name()
 
 -------------
 
-### - Printing the library by id
+### Printing the library by id
 
 
 - Code :
@@ -160,7 +160,7 @@ bool compare_books_id(const Book& b1,const Book& b2)
 
 --------------------------------
 
-### - Printing the library by name
+### Printing the library by name
 
 
 - Code :
@@ -194,7 +194,7 @@ bool compare_books_name(const Book& b1,const Book& b2){
 
 --------------
 
-### - Adding user
+###  Adding user
 
 - Code :
 
@@ -214,7 +214,7 @@ void add_user()
 
 ------------------------
 
-### - User borrow a book
+### User borrow a book
 
 - Code :
 
@@ -257,7 +257,7 @@ void borrow_book()
 
 -----------------
 
-### - User return a book
+### User return a book
 
 - Code :
 
@@ -297,7 +297,7 @@ void return_book()
 
 ----------------------
 
-###- Printing users
+### Printing users
 
 - Code :
 
