@@ -6,26 +6,26 @@ It's a hospital system for only one user (admin) , he can do the following :
 
 - [Adding a book to the system](#Adding-a-book-to-the-system) .
 
-- [Searching for a book by it's prefix]() .
+- [Searching for a book by it's prefix](#Searching-for-a-book-by-it's-prefix) .
 
-- [Printing who borrowed book]() .
+- [Printing who borrowed book](#Printing-who-borrowed-book) .
 
-- [Printing the library by id]() .
+- [Printing the library by id](#Printing-the-library-by-id) .
 
-- [Printing the library by name]() .
+- [Printing the library by name](#Printing-the-library-by-name) .
 
-- [Adding user]() .
+- [Adding user](#Adding-user) .
 
-- [User borrow a book]() .
+- [User borrow a book](#User-borrow-a-book) .
 
-- [User return a book]() .
+- [User return a book](#User-return-a-book) .
 
-- [Prining users]() .
+- [Prining users](#Prining-users) .
 
 
 ## 2.0 Functions used in the project
 
-### 2.1 Adding a book to the system
+### - Adding a book to the system
 
   - Code :
 
@@ -58,7 +58,7 @@ void add_book()
 
 ---------
 
-### 2.1 Searching for a book by it's prefix
+### - Searching for a book by it's prefix
 
   - Code :
 
@@ -95,7 +95,7 @@ void search_book_by_prefix(){
 -------------------------
 
 
-### 2.2 Printing who borrowed book
+###- Printing who borrowed book
 
   - Code :
 
@@ -125,7 +125,7 @@ void print_who_borrowed_book_by_name()
 
 -------------
 
-### 2.3 Printing the library by id
+### - Printing the library by id
 
 
 - Code :
@@ -160,7 +160,7 @@ bool compare_books_id(const Book& b1,const Book& b2)
 
 --------------------------------
 
-### 2.4 Printing the library by name
+### - Printing the library by name
 
 
 - Code :
@@ -194,7 +194,7 @@ bool compare_books_name(const Book& b1,const Book& b2){
 
 --------------
 
-### 2.5 Adding user
+### - Adding user
 
 - Code :
 
@@ -214,7 +214,7 @@ void add_user()
 
 ------------------------
 
-### 2.6 User borrow a book
+### - User borrow a book
 
 - Code :
 
@@ -257,7 +257,7 @@ void borrow_book()
 
 -----------------
 
-### 2.6 User return a book
+### - User return a book
 
 - Code :
 
@@ -297,7 +297,7 @@ void return_book()
 
 ----------------------
 
-### 2.7 Printing users
+###- Printing users
 
 - Code :
 
