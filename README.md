@@ -6,7 +6,7 @@ It's a hospital system for only one user (admin) , he can do the following :
 
 - [Adding a book to the system](#Adding-a-book-to-the-system) .
 
-- [Searching for a book by it's prefix](#Searching-for-a-book-by-it's-prefix) .
+- [Searching for a book by it's prefix](#Searching-for-a-book-by-its-prefix) .
 
 - [Printing who borrowed book](#Printing-who-borrowed-book) .
 
