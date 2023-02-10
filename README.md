@@ -4,7 +4,7 @@
 
 It's a hospital system for only one user (admin) , he can do the following :
 
-- [Adding a book to the system](#Adding-a-book-to-the-system) 
+- [Adding a book to the system](#2-.-1-Adding-a-book-to-the-system) 
 
 - [Searching for a book by it's prefix]() .
 
@@ -25,7 +25,7 @@ It's a hospital system for only one user (admin) , he can do the following :
 
 ## 2.0 Functions used in the project
 
-### Adding a book to the system
+### 2.1 Adding a book to the system
 
   - Code :
 
