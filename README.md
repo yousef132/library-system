@@ -2,9 +2,9 @@
 
 ## 1.0 Overview
 
-It's a hospital system for only one user (admin) ,he can do the following :
+It's a hospital system for only one user (admin) , he can do the following :
 
-- [Adding a book to the system](#2.1-Adding-a-book-to-the-system) 
+- [Adding a book to the system](2.1-Adding-a-book-to-the-system) 
 
 - [Searching for a book by it's prefix]() .
 
@@ -55,3 +55,125 @@ void add_book()
 }
 
 ```
+
+
+
+### 2.1 Searching for a book by it's prefix
+
+  - Code :
+
+```cpp
+
+void search_book_by_prefix(){
+    cout << "enter the prefix \n";
+    string prefix;
+    cin >> prefix;
+    bool found = false;
+    for (auto & book : books)
+    {
+        bool differ = true;
+        for (int j = 0 ; j < prefix.size() ; ++j)
+        {
+            if(prefix[j] != book.name[j]){
+                differ = false;
+                break;
+            }
+        }
+        if(differ)
+        {
+            found = true;
+            cout<<book.name<<'\n';
+        }
+    }
+    if(!found)
+        cout<<"there is no book contain this prefix \n";
+
+}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
