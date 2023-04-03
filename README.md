@@ -2,7 +2,7 @@
 
 ## 1.0 Overview
 
-It's a hospital system for only one user (admin) , he can do the following :
+It's a library system for only one user (admin) , he can do the following :
 
 - [Adding a book to the system](#Adding-a-book-to-the-system) .
 
