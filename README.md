@@ -2,25 +2,25 @@
 
 ## 1.0 Overview
 
-It's a library system for only one user (admin) , he can do the following :
+It's a library system for only one user (admin), he can do the following :
 
-- [Adding a book to the system](#Adding-a-book-to-the-system) .
+- [Adding a book to the system](#Adding-a-book-to-the-system).
 
-- [Searching for a book by it's prefix](#Searching-for-a-book-by-its-prefix) .
+- [Searching for a book by it's prefix](#Searching-for-a-book-by-its-prefix).
 
-- [Printing who borrowed book](#Printing-who-borrowed-book) .
+- [Printing who borrowed book](#Printing-who-borrowed-book).
 
-- [Printing the library by id](#Printing-the-library-by-id) .
+- [Printing the library by id](#Printing-the-library-by-id).
 
-- [Printing the library by name](#Printing-the-library-by-name) .
+- [Printing the library by name](#Printing-the-library-by-name).
 
 - [Adding user](#Adding-user) .
 
-- [User borrow a book](#User-borrow-a-book) .
+- [User borrow a book](#User-borrow-a-book).
 
-- [User return a book](#User-return-a-book) .
+- [User returns a book](#User-return-a-book).
 
-- [Prining users](#Prining-users) .
+- [Printing users](#Printing-users) .
 
 
 ## 2.0 Functions used in the project
@@ -34,7 +34,7 @@ It's a library system for only one user (admin) , he can do the following :
 void add_book()
 {
     cout << "Enter book info : 'id' & 'name' & 'total quantity' \n ";
-    int id , total_quantity;
+    int id, total_quantity;
     string name;
     bool found = false;
     cin >> id >> name >> total_quantity;
